@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+#main-page-header {
+    margin-top: 0.7em;
+    text-decoration: underline;
+}
+
+#icon-spacing {
+    text-decoration: none;
+}
+
+#playing-field {
+    margin-top: 0em;
+}
+
+.btnn {
+    min-width: 6em;
+    min-height: 6em;
+    border: 1px solid black;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: white;
+    vertical-align: top;
+    font-size: 1em;
+}
+
+.btnn:hover {
+    background-color: lightgray;
+}
+
+.btnn:active {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+}
+
+#reset-btn {
+    margin-top: 3em;
+}
+
+#live-count {
+    margin-top: 5em;
+}
+
+.wins {
+    display: inline;
+}
+
+#xwins {
+    margin-right: 3em;
+}
+
+#owins {
+    margin-left: 3em;
+}
